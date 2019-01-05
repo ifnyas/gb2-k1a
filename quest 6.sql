@@ -1,3 +1,7 @@
+/* create database and use it */
+create database quest6;
+use quest6;
+
 /* create table: products & categories */
 create table products(id integer primary key autoincrement, name, category_id);
 create table categories(id integer primary key autoincrement, name);
